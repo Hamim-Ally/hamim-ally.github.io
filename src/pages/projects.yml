@@ -19,11 +19,16 @@ content_sections:
           type: t
 
       posts:
-        - title: Static Site Generator 
+        - title: Snake Game
           description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, totam?
           image_url: /media/images/works/thumbnail/3.webp
-          post_url: '/projects/ssg'
+          post_url: '/projects/snake-game'
           type: web-templates
+        # - title: Static Site Generator 
+        #   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, totam?
+        #   image_url: /media/images/works/thumbnail/3.webp
+        #   post_url: '/projects/ssg'
+        #   type: web-templates
            
 
   - widget: brand

@@ -13,189 +13,45 @@
                 {% for category in categories %}
                 <a href="#" data-filter=".{{category['type']}}" class="art-link">{{category['name']}}</a>
                 {% endfor %}
-
-                <!-- filter link -->
-
-                <!-- filter link -->
-                
-                <!-- filter link -->
-                <!-- <a href="#" data-filter=".logos" class="art-link">Logos</a>
-                <a href="#" data-filter=".drawings" class="art-link">Drawings</a>
-                <a href="#" data-filter=".ui" class="art-link">UI Elements</a> -->
             </div>
-            <!-- filter end -->
-
         </div>
-        <!-- col end -->
+
 
         <div class="art-grid art-grid-3-col art-gallery">
 
             {% for post in posts %}
 
             <div class="art-grid-item {{post['type']}}">
-                <!-- grid item frame -->
-                <a data-fancybox="gallery" data-no-swup href="{{post['image_url']}}" class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{post['image_url']}}" alt="item">
-                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                </a>
-                <!-- grid item frame end -->
-                <div class="art-item-description">
-                    <h5 class="mb-15">{{post['title']}}</h5>
-                    <div class="mb-15">{{post['description']}}</div>
-                    <a href="{{post['post_url']}}" class="art-link art-color-link art-w-chevron">Read more</a>
-                </div>
+                <div class="swiper-slide swiper-slide-prev" style="width: 308.667px; margin-right: 30px;">
+
+                    <!-- blog post card -->
+                    <div class="art-a art-blog-card">
+                      <!-- post cover -->
+                      <a href="{{post['post_url']}}" class="art-port-cover">
+                        <!-- img -->
+                        <img src="{{post['image_url']}}" alt="blog post">
+                      </a>
+                      <!-- post cover end -->
+                      <!-- post description -->
+                      <div class="art-post-description">
+                        <!-- title -->
+                        <a href="{{post['post_url']}}">
+                          <h5 class="mb-15">{{post['title']}}</h5>
+                        </a>
+                        <!-- text -->
+                        <div class="mb-15">{{post['description']}}</div>
+                        <!-- link -->
+                        <a href="{{post['post_url']}}" class="art-link art-color-link art-w-chevron">Read more</a>
+                      </div>
+                      <!-- post description end -->
+                    </div>
+                    <!-- blog post card end -->
+
+                  </div>
+
             </div>
 
             {% endfor %}
-
-            <!-- grid item -->
-
-            <!-- grid item end -->
-
-            <!-- grid item -->
-            <div class="art-grid-item t">
-                <!-- grid item frame -->
-                <a data-fancybox="gallery" data-no-swup href="/media/images/works/thumbnail/2.webp"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <!-- img -->
-                    <img src="/media/images/works/thumbnail/2.webp" alt="item">
-                    <!-- zoom icon -->
-                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                </a>
-                <!-- grid item frame end -->
-                <!-- description -->
-                <div class="art-item-description">
-                    <!-- title -->
-                    <h5 class="mb-15">Project title</h5>
-                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                    <!-- button -->
-                    <a href="portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
-                </div>
-                <!-- description end -->
-
-            </div>
-            <!-- grid item end -->
-
-            <!-- grid item -->
-            <div class="art-grid-item t">
-                <!-- grid item frame -->
-                <a data-fancybox="gallery" data-no-swup href="/media/images/works/thumbnail/3.webp"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <!-- img -->
-                    <img src="/media/images/works/thumbnail/3.webp" alt="item">
-                    <!-- zoom icon -->
-                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                </a>
-                <!-- grid item frame end -->
-                <!-- description -->
-                <div class="art-item-description">
-                    <!-- title -->
-                    <h5 class="mb-15">Project title</h5>
-                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                    <!-- button -->
-                    <a href="portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
-                </div>
-                <!-- description end -->
-
-            </div>
-            <!-- grid item end -->
-
-            <!-- grid item -->
-            <div class="art-grid-item t">
-                <!-- grid item frame -->
-                <a data-fancybox="gallery" data-no-swup href="/media/images/works/thumbnail/4.webp"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <!-- img -->
-                    <img src="/media/images/works/thumbnail/4.webp" alt="item">
-                    <!-- zoom icon -->
-                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                </a>
-                <!-- grid item frame end -->
-                <!-- description -->
-                <div class="art-item-description">
-                    <!-- title -->
-                    <h5 class="mb-15">Project title</h5>
-                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                    <!-- button -->
-                    <a href="portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
-                </div>
-                <!-- description end -->
-
-            </div>
-            <!-- grid item end -->
-
-            <!-- grid item -->
-            <div class="art-grid-item t">
-                <!-- grid item frame -->
-                <a data-fancybox="gallery" data-no-swup href="/media/images/works/thumbnail/5.webp"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <!-- img -->
-                    <img src="/media/images/works/thumbnail/5.webp" alt="item">
-                    <!-- zoom icon -->
-                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                </a>
-                <!-- grid item frame end -->
-                <!-- description -->
-                <div class="art-item-description">
-                    <!-- title -->
-                    <h5 class="mb-15">Project title</h5>
-                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                    <!-- button -->
-                    <a href="portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
-                </div>
-                <!-- description end -->
-
-            </div>
-            <!-- grid item end -->
-
-            <!-- grid item -->
-            <div class="art-grid-item t">
-                <!-- grid item frame -->
-                <a data-fancybox="gallery" data-no-swup href="/media/images/works/thumbnail/6.webp"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <!-- img -->
-                    <img src="/media/images/works/thumbnail/6.webp" alt="item">
-                    <!-- zoom icon -->
-                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                </a>
-                <!-- grid item frame end -->
-                <!-- description -->
-                <div class="art-item-description">
-                    <!-- title -->
-                    <h5 class="mb-15">Project title</h5>
-                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                    <!-- button -->
-                    <a href="portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
-                </div>
-                <!-- description end -->
-
-            </div>
-            <!-- grid item end -->
-
-            <!-- grid item -->
-            <div class="art-grid-item t">
-                <!-- grid item frame -->
-                <a data-fancybox="gallery" data-no-swup href="/media/images/works/thumbnail/7.webp"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <!-- img -->
-                    <img src="/media/images/works/thumbnail/7.webp" alt="item">
-                    <!-- zoom icon -->
-                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                </a>
-                <!-- grid item frame end -->
-                <!-- description -->
-                <div class="art-item-description">
-                    <!-- title -->
-                    <h5 class="mb-15">Project title</h5>
-                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                    <!-- button -->
-                    <a href="portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
-                </div>
-                <!-- description end -->
-
-            </div>
-            <!-- grid item end -->
-
         </div>
 
     </div>
@@ -222,5 +78,18 @@
                 <a href="blog-2-col.html" class="art-link art-color-link art-w-chevron"><span>Next page</span></a>
             </div>
         </div>
+    </div>
+</div> -->
+
+<!-- <div class="art-grid-item {{post['type']}}">
+    <a data-fancybox="gallery" data-no-swup href="{{post['image_url']}}" class="art-a art-portfolio-item-frame art-square">
+        <img src="{{post['image_url']}}" alt="item">
+        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+    </a>
+
+    <div class="art-item-description">
+        <h5 class="mb-15">{{post['title']}}</h5>
+        <div class="mb-15">{{post['description']}}</div>
+        <a href="{{post['post_url']}}" class="art-link art-color-link art-w-chevron">Read more</a>
     </div>
 </div> -->
