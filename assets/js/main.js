@@ -14,7 +14,7 @@ $(function () {
   // scrollbar
   Scrollbar.use(OverscrollPlugin);
   Scrollbar.init(document.querySelector('#scrollbar'), {
-    damping: 0.05,
+    damping: 0.04,
     renderByPixel: true,
     continuousScrolling: true,
   });
