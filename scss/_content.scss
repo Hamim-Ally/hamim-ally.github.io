@@ -823,7 +823,7 @@ footer
 
     .menu
     {
-      margin: -15px;
+      margin-right: -15px;
       a
       {
         position: relative;
@@ -1332,6 +1332,19 @@ content (after 768px)
 
   .art-m-hidden {
     display: none;
+  }
+
+  
+  footer
+  {
+    .container
+    {
+      flex-flow: column-reverse;
+      .menu
+      {
+        margin-bottom: 30px;
+      }
+    }
   }
 }
 /* ------------------------------

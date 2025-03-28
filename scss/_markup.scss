@@ -22,13 +22,12 @@ app marcup
 }
 /* ----- preloader ----- */
 .art-preloader {
-  margin: 15px;
   position: absolute;
   top: 0;
   left: 0;
-  width: calc(100vw - 30px);
-  height: calc(100vh - 30px);
-  background: $info-bar-1-color;
+  width: 100vw;
+  height: 100vh;
+  background: $darker;
   z-index: 999999;
   display: flex;
   align-items: center;
@@ -56,7 +55,7 @@ app marcup
 .art-preloader-load {
   & path {
     &:first-child {
-      stroke: $deep-color;
+      stroke: $super-dark;
     }
     &:last-child {
       stroke: $main-color;
@@ -295,10 +294,6 @@ app marcup (after 920px)
         width: 100vw;
         height: 100vh;
         padding-right: 0;
-
-        .art-scroll-frame {
-          height: calc(100vh - 70px);
-        }
 
         &.art-active {
           transform: none;
