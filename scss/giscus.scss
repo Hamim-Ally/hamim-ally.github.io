@@ -130,7 +130,7 @@ main .pagination-loader-container {
     background-color: #15202b
 }
 
-.color-border-primary{border: 1px solid $super-dark;}
+
 
 main .gsc-loading-image {
     background-image: url(https://github.githubassets.com/images/mona-loading-dimmed.gif)
@@ -138,5 +138,7 @@ main .gsc-loading-image {
 
 .color-bg-primary
 {
-    background: $darker;
+    background: $darkest ;
 }
+
+.color-border-primary{border: 1px solid $super-dark;}
