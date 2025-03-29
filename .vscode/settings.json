@@ -10,5 +10,5 @@
         }
     ],
 
-    "liveSassCompile.settings.excludeList": ["**/!(index).scss"]
+    "liveSassCompile.settings.excludeList": ["**/!(index|giscus).scss"]
 }
