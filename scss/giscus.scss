@@ -136,9 +136,21 @@ main .gsc-loading-image {
     background-image: url(https://github.githubassets.com/images/mona-loading-dimmed.gif)
 }
 
-.color-bg-tertiary, .color-bg-primary
+.color-bg-tertiary
 {
     background: $dark ;
+    border: 0;
+    border-bottom: 1px solid $super-dark;
+}
+
+.color-bg-primary
+{
+    background: $darker ;
+}
+
+.input-contrast
+{
+    background: $darkest;
 }
 
 .color-border-primary{border: 1px solid $super-dark;}
