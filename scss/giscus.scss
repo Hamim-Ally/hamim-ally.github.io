@@ -167,12 +167,15 @@ main .gsc-loading-image {
     background: $darkest;
 }
 
-button
+.gsc-comment-box
 {
-    border-radius: 0 !important;
-    border: 0 !important;
-    border-right: 1px solid $super-dark;
-    background: $dark !important;
+    button
+    {
+        border-radius: 0 !important;
+        border: 0 !important;
+        border-right: 1px solid $super-dark;
+        background: $dark !important;
+    }
 }
 
 .color-border-primary{border: 1px solid $super-dark;}
