@@ -141,6 +141,11 @@ main .gsc-loading-image {
     background: $light;
     border: 0 !important;
     border-bottom: 1px solid $super-dark;
+    
+    .mx-2
+    {
+        margin: 0 !important;
+    }
 }
 
 // .gsc-comment-box-main
