@@ -162,11 +162,6 @@ main .gsc-loading-image {
     box-shadow: $shadow-1;
 }
 
-.input-contrast
-{
-    background: $darkest;
-}
-
 .gsc-comment-box
 {
     .mx-2
@@ -198,7 +193,7 @@ main .gsc-loading-image {
 
 .gsc-comment-box-buttons
 {
-    a
+    a, button
     {
         border-radius: 0 !important;
         background: $light;
@@ -210,6 +205,9 @@ main .gsc-loading-image {
     }
 }
 
+.input-contrast {background: $darker;}
+.input-contrast:focus {background: $darkest;}
+
 .gsc-comment-box-textarea
 {
     border-radius: 0 !important;
@@ -219,9 +217,19 @@ main .gsc-loading-image {
 {
     border-radius: 0 !important;
 }
+
+.gsc-comment-box-write:focus-within
+{
+    border-color: $main-color;
+    box-shadow: 0 0 0 2px $main-color;
+    outline: none;
+}
+
 .gsc-comments-count
 {
-
+    font-size: 28px;
+    font-weight: 700;
+    color: #fafafc;
 }
 
 .color-border-primary{border: 1px solid $super-dark;}
