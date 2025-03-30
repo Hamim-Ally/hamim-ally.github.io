@@ -138,14 +138,20 @@ main .gsc-loading-image {
 
 .color-bg-tertiary
 {
-    background: $dark;
+    background: $light;
     border: 0;
     border-bottom: 1px solid $super-dark;
 }
 
+// .gsc-comment-box-main
+// {
+//     background: $dark;
+
+// }
+
 .color-bg-primary
 {
-    background: $darker;
+    background: $dark;
     border-radius: 0 !important;
 }
 
