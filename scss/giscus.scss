@@ -218,11 +218,16 @@ main .gsc-loading-image {
     border-radius: 0 !important;
 }
 
-.gsc-comment-box-write:focus-within
+.gsc-comment-box-write
 {
-    border-color: $main-color;
-    box-shadow: 0 0 0 2px $main-color;
-    outline: none;
+    border-radius: 0;
+
+    &:focus-within
+    {
+        border: 1px solid $main-color;
+        outline: none;
+        box-shadow: none;
+    }
 }
 
 .gsc-comments-count
