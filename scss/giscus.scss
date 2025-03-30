@@ -205,7 +205,14 @@ main .gsc-loading-image {
     }
 }
 
-.input-contrast {background: $darker;}
+.input-contrast
+{
+    background: $darker; 
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
 .input-contrast:focus {background: $darkest;}
 
 .gsc-comment-box-textarea
