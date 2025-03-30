@@ -139,7 +139,7 @@ main .gsc-loading-image {
 .color-bg-tertiary
 {
     background: $light;
-    border: 0;
+    border: 0 !important;
     border-bottom: 1px solid $super-dark;
 }
 
