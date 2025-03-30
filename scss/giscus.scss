@@ -202,12 +202,22 @@ main .gsc-loading-image {
     {
         border-radius: 0 !important;
         background: $light;
-        
+
         &:hover
         {
             background: $main-color;
         }
     }
+}
+
+.gsc-comment-box-textarea
+{
+    border-radius: 0 !important;
+}
+
+.gsc-comment-box-textarea-extras
+{
+    border-radius: 0 !important;
 }
 .gsc-comments-count
 {
