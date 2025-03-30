@@ -175,8 +175,13 @@ main .gsc-loading-image {
         {
             border-radius: 0 !important;
             border: 0 !important;
-            border-right: 1px solid $super-dark;
+            border-right: 1px solid $super-dark !important;
             background: $dark !important;
+            
+            &.ml-1
+            {
+                margin: 0;
+            }
         }
     }
 }
