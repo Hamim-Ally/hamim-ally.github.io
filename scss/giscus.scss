@@ -196,4 +196,17 @@ main .gsc-loading-image {
     margin-left: 0 !important;
 }
 
+.gsc-comment-box-buttons
+{
+    a
+    {
+        border-radius: 0;
+        background: $main-color;
+    }
+}
+.gsc-comments-count
+{
+
+}
+
 .color-border-primary{border: 1px solid $super-dark;}
