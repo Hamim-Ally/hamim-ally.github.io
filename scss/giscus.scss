@@ -200,8 +200,13 @@ main .gsc-loading-image {
 {
     a
     {
-        border-radius: 0;
-        background: $main-color;
+        border-radius: 0 !important;
+        background: $light;
+        
+        &:hover
+        {
+            background: $main-color;
+        }
     }
 }
 .gsc-comments-count
