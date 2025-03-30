@@ -140,7 +140,7 @@ main .gsc-loading-image {
 {
     background: $light;
     border: 0 !important;
-    border-bottom: 1px solid $super-dark;
+    border-bottom: 1px solid $super-dark !important;
     
     .mx-2
     {
@@ -176,7 +176,7 @@ main .gsc-loading-image {
             border-radius: 0 !important;
             border: 0 !important;
             border-right: 1px solid $super-dark !important;
-            background: $dark !important;
+            background: $light !important;
             
             &.ml-1
             {
@@ -184,6 +184,11 @@ main .gsc-loading-image {
             }
         }
     }
+}
+
+.color-bg-canvas
+{
+    background: $dark !important;
 }
 
 .gsc-comment-box-md-toolbar
