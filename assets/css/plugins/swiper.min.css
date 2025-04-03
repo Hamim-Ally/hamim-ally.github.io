@@ -13,7 +13,7 @@
     margin: 0 auto;
     list-style: none;
     padding: 0;
-    z-index: 1
+    z-index: 1;
     position: relative;
     overflow: hidden;
 }
@@ -22,7 +22,7 @@
     float: left
 }
 
-.swiper-container-vertical > .swiper-wrapper {
+.swiper-container-vertical>.swiper-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -51,12 +51,12 @@
     transform: translate3d(0, 0, 0)
 }
 
-.swiper-container-multirow > .swiper-wrapper {
+.swiper-container-multirow>.swiper-wrapper {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap
 }
 
-.swiper-container-free-mode > .swiper-wrapper {
+.swiper-container-free-mode>.swiper-wrapper {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
     margin: 0 auto
@@ -143,13 +143,13 @@
 }
 
 .swiper-container-wp8-horizontal,
-.swiper-container-wp8-horizontal > .swiper-wrapper {
+.swiper-container-wp8-horizontal>.swiper-wrapper {
     -ms-touch-action: pan-y;
     touch-action: pan-y
 }
 
 .swiper-container-wp8-vertical,
-.swiper-container-wp8-vertical > .swiper-wrapper {
+.swiper-container-wp8-vertical>.swiper-wrapper {
     -ms-touch-action: pan-x;
     touch-action: pan-x
 }
@@ -227,7 +227,7 @@
     opacity: 0
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-container-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
     bottom: 10px;
@@ -305,26 +305,26 @@ button.swiper-pagination-bullet {
     background: #007aff
 }
 
-.swiper-container-vertical > .swiper-pagination-bullets {
+.swiper-container-vertical>.swiper-pagination-bullets {
     right: 10px;
     top: 50%;
     -webkit-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0)
 }
 
-.swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 6px 0;
     display: block
 }
 
-.swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+.swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     width: 8px
 }
 
-.swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+.swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
     display: inline-block;
     -webkit-transition: .2s top, .2s -webkit-transform;
     transition: .2s top, .2s -webkit-transform;
@@ -334,18 +334,18 @@ button.swiper-pagination-bullet {
     transition: .2s transform, .2s top, .2s -webkit-transform
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 4px
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     white-space: nowrap
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
     -webkit-transition: .2s left, .2s -webkit-transform;
     transition: .2s left, .2s -webkit-transform;
     -webkit-transition: .2s transform, .2s left;
@@ -354,7 +354,7 @@ button.swiper-pagination-bullet {
     transition: .2s transform, .2s left, .2s -webkit-transform
 }
 
-.swiper-container-horizontal.swiper-container-rtl > .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+.swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
     -webkit-transition: .2s right, .2s -webkit-transform;
     transition: .2s right, .2s -webkit-transform;
     -webkit-transition: .2s transform, .2s right;
@@ -385,16 +385,16 @@ button.swiper-pagination-bullet {
     transform-origin: right top
 }
 
-.swiper-container-horizontal > .swiper-pagination-progressbar,
-.swiper-container-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+.swiper-container-horizontal>.swiper-pagination-progressbar,
+.swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
     width: 100%;
     height: 4px;
     left: 0;
     top: 0
 }
 
-.swiper-container-horizontal > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
-.swiper-container-vertical > .swiper-pagination-progressbar {
+.swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.swiper-container-vertical>.swiper-pagination-progressbar {
     width: 4px;
     height: 100%;
     left: 0;
@@ -436,7 +436,7 @@ button.swiper-pagination-bullet {
     background: rgba(0, 0, 0, .1)
 }
 
-.swiper-container-horizontal > .swiper-scrollbar {
+.swiper-container-horizontal>.swiper-scrollbar {
     position: absolute;
     left: 1%;
     bottom: 3px;
@@ -445,7 +445,7 @@ button.swiper-pagination-bullet {
     width: 98%
 }
 
-.swiper-container-vertical > .swiper-scrollbar {
+.swiper-container-vertical>.swiper-scrollbar {
     position: absolute;
     right: 3px;
     top: 1%;
@@ -487,9 +487,9 @@ button.swiper-pagination-bullet {
     text-align: center
 }
 
-.swiper-zoom-container > canvas,
-.swiper-zoom-container > img,
-.swiper-zoom-container > svg {
+.swiper-zoom-container>canvas,
+.swiper-zoom-container>img,
+.swiper-zoom-container>svg {
     max-width: 100%;
     max-height: 100%;
     -o-object-fit: contain;
@@ -605,7 +605,7 @@ button.swiper-pagination-bullet {
 
 .swiper-container-cube .swiper-slide-active,
 .swiper-container-cube .swiper-slide-next,
-.swiper-container-cube .swiper-slide-next + .swiper-slide,
+.swiper-container-cube .swiper-slide-next+.swiper-slide,
 .swiper-container-cube .swiper-slide-prev {
     pointer-events: auto;
     visibility: visible
