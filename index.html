@@ -476,17 +476,5 @@
                 </div>
             </div>
         </div>
-        <script>
-            const sheetId = "YOUR_SHEET_ID";
-const sheetNumber = "1"; // The sheet index (1 for the first sheet)
-
-const url = `https://spreadsheets.google.com/feeds/list/${sheetId}/${sheetNumber}/public/values?alt=json`;
-
-fetch(url)
-  .then(response => response.json())
-  .then(data => console.log(data.feed.entry))
-  .catch(error => console.error("Error:", error));
-
-        </script>
     </body>
 </html>
