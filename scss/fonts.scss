@@ -1,0 +1,25 @@
+@mixin font-face($font-name, $style, $weight, $font-path) {
+    @font-face {
+        font-family: $font-name;
+        font-style: $style;
+        font-weight: $weight;
+        font-display: swap;
+        src: url(#{$font-path}) format('woff2');
+    }
+}
+
+
+// Poppins fonts
+@include font-face('Poppins', normal, 100, '/Assets/Fonts/Poppins/100.ttf');
+@include font-face('Poppins', normal, 200, '/Assets/Fonts/Poppins/200.ttf');
+@include font-face('Poppins', normal, 300, '/Assets/Fonts/Poppins/300.ttf');
+@include font-face('Poppins', normal, 400, '/Assets/Fonts/Poppins/400.ttf');
+@include font-face('Poppins', normal, 500, '/Assets/Fonts/Poppins/500.ttf');
+@include font-face('Poppins', normal, 600, '/Assets/Fonts/Poppins/600.ttf');
+@include font-face('Poppins', normal, 700, '/Assets/Fonts/Poppins/700.ttf');
+@include font-face('Poppins', normal, 800, '/Assets/Fonts/Poppins/800.ttf');
+@include font-face('Poppins', normal, 900, '/Assets/Fonts/Poppins/900.ttf');
+
+// Courier Prime fonts
+@include font-face('Courier Prime', normal, 400, '/Assets/Fonts/CourierPrime/400.ttf');
+@include font-face('Courier Prime', normal, 700, '/Assets/Fonts/CourierPrime/700.ttf');
