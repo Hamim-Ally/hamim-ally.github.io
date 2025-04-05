@@ -171,9 +171,7 @@ app marcup
     /* ----- content ----- */
     & .art-content {
       position: relative;
-      overflow: hidden;
       width: 100vw;
-      height: 100vh;
       transition: $tr-lg;
 
       & .art-curtain {
