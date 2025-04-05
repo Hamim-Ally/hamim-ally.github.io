@@ -9,7 +9,7 @@
 
 .banner
 {
-  margin-bottom: 40px;
+  h1 {line-height: 1.15;}
 }
 
 .score-block
@@ -45,10 +45,9 @@
 .brands 
 {
   background: $dark;
-  margin: 48px 0;
   padding: 48px 0;
   border-top: 1px solid $super-dark;
-  border-bottom: 1px solid $super-dark;
+
   .title
   {
     color: $lightest;
@@ -145,14 +144,10 @@ content
   background: $dark;
   box-shadow: $shadow-1;
   padding: 30px;
-  margin-bottom: 30px;
   border: 1px solid $super-dark;
   border-top: 1px solid $main-color;
-
-  &.art-fluid-card {
-    height: calc(100% - 30px);
-  }
 }
+
 /* ----- banner ----- */
 .art-banner-back {
   content: '';
