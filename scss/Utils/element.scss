@@ -2,7 +2,34 @@ html {
     font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: thin;
+    scrollbar-color: $light $super-dark; /* Thumb color, Track color */
+
+    /* Set the size of the scrollbar */
+    ::-webkit-scrollbar {
+        width: 8px;  /* For vertical scrollbar */
+        height: 8px; /* For horizontal scrollbar */
+    }
+
+    /* Style the draggable part (thumb) */
+    ::-webkit-scrollbar-thumb {
+        background-color: $dark; /* Blue color */
+        border-radius: 0px;
+        border: 0;
+    }
+
+    /* Style the track (the area the thumb slides along) */
+    ::-webkit-scrollbar-track {
+        background: $super-dark; /* Light gray background */
+    }
+
+    /* Optional: Style the buttons on the scrollbar */
+    ::-webkit-scrollbar-button {
+        display: none; /* Hide the buttons */
+
+    }
+
 }
 
 *, ::after, ::before {
@@ -13,6 +40,7 @@ html {
 body {
     text-align: left;
 }
+
 
 img {vertical-align:middle;}
 img{border-style:none;}
