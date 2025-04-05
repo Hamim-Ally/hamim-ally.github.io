@@ -1,0 +1,312 @@
+@import 'Utils/element';
+@import 'Utils/margin';
+@import 'Utils/padding';
+@import 'Utils/layout';
+@import 'Utils/display';
+
+
+
+
+
+
+
+
+
+
+
+
+// .w-auto {
+//     width: auto
+// }
+
+// .w-0 {
+//     width: 0%
+// }
+
+// .w-1 {
+//     width: 20%
+// }
+
+// .w-2 {
+//     width: 40%
+// }
+
+// .w-3 {
+//     width: 60%
+// }
+
+// .w-4 {
+//     width: 80%
+// }
+
+// .w-5 {
+//     width: 100%
+// }
+
+// @media(min-width: 640px) {
+//     .w-sm-auto {
+//         width: auto
+//     }
+
+//     .w-sm-0 {
+//         width: 0%
+//     }
+
+//     .w-sm-1 {
+//         width: 20%
+//     }
+
+//     .w-sm-2 {
+//         width: 40%
+//     }
+
+//     .w-sm-3 {
+//         width: 60%
+//     }
+
+//     .w-sm-4 {
+//         width: 80%
+//     }
+
+//     .w-sm-5 {
+//         width: 100%
+//     }
+// }
+
+// @media(min-width: 768px) {
+//     .w-md-auto {
+//         width: auto
+//     }
+
+//     .w-md-0 {
+//         width: 0%
+//     }
+
+//     .w-md-1 {
+//         width: 20%
+//     }
+
+//     .w-md-2 {
+//         width: 40%
+//     }
+
+//     .w-md-3 {
+//         width: 60%
+//     }
+
+//     .w-md-4 {
+//         width: 80%
+//     }
+
+//     .w-md-5 {
+//         width: 100%
+//     }
+// }
+
+// @media(min-width: 1024px) {
+//     .w-lg-auto {
+//         width: auto
+//     }
+
+//     .w-lg-0 {
+//         width: 0%
+//     }
+
+//     .w-lg-1 {
+//         width: 20%
+//     }
+
+//     .w-lg-2 {
+//         width: 40%
+//     }
+
+//     .w-lg-3 {
+//         width: 60%
+//     }
+
+//     .w-lg-4 {
+//         width: 80%
+//     }
+
+//     .w-lg-5 {
+//         width: 100%
+//     }
+// }
+
+// @media(min-width: 1280px) {
+//     .w-xl-auto {
+//         width: auto
+//     }
+
+//     .w-xl-0 {
+//         width: 0%
+//     }
+
+//     .w-xl-1 {
+//         width: 20%
+//     }
+
+//     .w-xl-2 {
+//         width: 40%
+//     }
+
+//     .w-xl-3 {
+//         width: 60%
+//     }
+
+//     .w-xl-4 {
+//         width: 80%
+//     }
+
+//     .w-xl-5 {
+//         width: 100%
+//     }
+// }
+
+// .h-auto {
+//     height: auto
+// }
+
+// .h-0 {
+//     height: 0%
+// }
+
+// .h-1 {
+//     height: 20%
+// }
+
+// .h-2 {
+//     height: 40%
+// }
+
+// .h-3 {
+//     height: 60%
+// }
+
+// .h-4 {
+//     height: 80%
+// }
+
+// .h-5 {
+//     height: 100%
+// }
+
+// @media(min-width: 640px) {
+//     .h-sm-auto {
+//         height: auto
+//     }
+
+//     .h-sm-0 {
+//         height: 0%
+//     }
+
+//     .h-sm-1 {
+//         height: 20%
+//     }
+
+//     .h-sm-2 {
+//         height: 40%
+//     }
+
+//     .h-sm-3 {
+//         height: 60%
+//     }
+
+//     .h-sm-4 {
+//         height: 80%
+//     }
+
+//     .h-sm-5 {
+//         height: 100%
+//     }
+// }
+
+// @media(min-width: 768px) {
+//     .h-md-auto {
+//         height: auto
+//     }
+
+//     .h-md-0 {
+//         height: 0%
+//     }
+
+//     .h-md-1 {
+//         height: 20%
+//     }
+
+//     .h-md-2 {
+//         height: 40%
+//     }
+
+//     .h-md-3 {
+//         height: 60%
+//     }
+
+//     .h-md-4 {
+//         height: 80%
+//     }
+
+//     .h-md-5 {
+//         height: 100%
+//     }
+// }
+
+// @media(min-width: 1024px) {
+//     .h-lg-auto {
+//         height: auto
+//     }
+
+//     .h-lg-0 {
+//         height: 0%
+//     }
+
+//     .h-lg-1 {
+//         height: 20%
+//     }
+
+//     .h-lg-2 {
+//         height: 40%
+//     }
+
+//     .h-lg-3 {
+//         height: 60%
+//     }
+
+//     .h-lg-4 {
+//         height: 80%
+//     }
+
+//     .h-lg-5 {
+//         height: 100%
+//     }
+// }
+
+// @media(min-width: 1280px) {
+//     .h-xl-auto {
+//         height: auto
+//     }
+
+//     .h-xl-0 {
+//         height: 0%
+//     }
+
+//     .h-xl-1 {
+//         height: 20%
+//     }
+
+//     .h-xl-2 {
+//         height: 40%
+//     }
+
+//     .h-xl-3 {
+//         height: 60%
+//     }
+
+//     .h-xl-4 {
+//         height: 80%
+//     }
+
+//     .h-xl-5 {
+//         height: 100%
+//     }
+// }

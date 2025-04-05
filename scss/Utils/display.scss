@@ -1,0 +1,12 @@
+.d-block{display:block!important;}
+.d-none{display:none!important;}
+
+@media (min-width:768px) {
+    .d-md-none{display:none!important;}
+}
+
+@media (min-width:768px) {
+    .d-md-block{display:block!important;}
+}
+
+.overflow-hidden{overflow:hidden!important;}
