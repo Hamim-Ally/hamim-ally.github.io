@@ -1376,4 +1376,7 @@ content (after 500px)
 .input-wrapper .paragraph-input
 {
   background: $darkest;
+  outline: none;
+  border: 1px solid #555;
+  border-radius: 4px;
 }
