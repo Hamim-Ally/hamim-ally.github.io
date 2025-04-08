@@ -1379,6 +1379,11 @@ content (after 500px)
   outline: none;
   border: 1px solid $super-dark;
   border-radius: 4px;
+
+  &::placeholder
+  {
+    color: $dark;
+  }
 }
 
 select
