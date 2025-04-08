@@ -1,18 +1,18 @@
 $main-color: #f16726;
 
-$super-dark: #151b1c;
-$darkest: #182326;
-$darker: #20292b;
-$dark: #283538;
+$super-dark: #181818;
+$darkest: #202020;
+$darker: #252525;
+$dark: #3a3a3a;
 
-$light: #374347;;
-$lighter:#8c8c8e;
-$lightest: rgba(250,250,252,1);
+$light: #4b4b4b;;
+$lighter:#858585;
+$lightest: #fcfcfc;
 
 
 
-$shadow-1: 8px 8px 2px 0 rgba(24, 31, 33, 0.6);
-$shadow-2: 0 1px 4px 0 rgba(15,15,20,.1);
+$shadow-1: 8px 8px 2px 0 rgba(31, 31, 31, 0.6);
+$shadow-2: 0 1px 4px 0 rgba(15, 15, 15, 0.1);
 
 $tr-lg: 0.55s ease-in-out;
 $tr-md: 0.4s ease-in-out;
@@ -42,11 +42,10 @@ $deep-color-s-light: rgba(25,25,35,.88);
 
 $text-color-1: #fafafc;
 $text-color-2: #a2aaac;
-$text-color-3: #646466;
+$text-color-3: rgb(38, 38, 38);
 
-$top-bg-gradient: linear-gradient(180deg, rgba(32, 41, 42, 0.93) 0%, rgba(32, 41, 42, 0.96) 70%, rgba(32, 41, 42, 0.99) 80%, rgba(32, 41, 42, 1) 100%);
-$dark-gradient: linear-gradient(180deg, rgba(40, 53, 56, 0.93) 0%, rgba(40, 53, 56, 0.96) 70%, rgba(40, 53, 56, 0.99) 80%, rgba(40, 53, 56, 1) 100%);
+$top-bg-gradient: linear-gradient(180deg, rgba(38, 38, 38, 0.93) 0%, rgba(38, 38, 38, 0.96) 70%, rgba(38, 38, 38, 0.99) 80%, rgba(38, 38, 38, 1) 100%);
+$dark-gradient: linear-gradient(180deg, rgba(56, 56, 56, 0.93) 0%, rgba(56, 56, 56, 0.96) 70%, rgba(56, 56, 56, 0.99) 80%, rgba(56, 56, 56, 1) 100%);
 // $super-dark: #151b1c;
 // $darkest: #182326;
-// $darker: rgb(32, 41, 43);
-$dark: rgb(40, 53, 56);
+// $darker: rgb(32, 41, 43);#252525
