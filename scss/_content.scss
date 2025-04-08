@@ -1377,6 +1377,14 @@ content (after 500px)
 {
   background: $darkest;
   outline: none;
-  border: 1px solid #555;
+  border: 1px solid $super-dark;
+  border-radius: 4px;
+}
+
+select
+{
+  background: $dark;
+  outline: none;
+  border: 1px solid $super-dark;
   border-radius: 4px;
 }
