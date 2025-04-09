@@ -1383,6 +1383,7 @@ content (after 500px)
   &::placeholder
   {
     color: $light;
+    opacity: 0.5;
   }
 }
 
