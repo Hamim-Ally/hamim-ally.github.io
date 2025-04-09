@@ -11,18 +11,6 @@ $(function () {
   const swup = new Swup(options);
 
 
-  // scrollbar
-  Scrollbar.use(OverscrollPlugin);
-  Scrollbar.init(document.querySelector('#scrollbar'), {
-    damping: 0.04,
-    renderByPixel: true,
-    continuousScrolling: true,
-  });
-  // Scrollbar.init(document.querySelector('#scrollbar2'), {
-  //   damping: 0.05,
-  //   renderByPixel: true,
-  //   continuousScrolling: true,
-  // });
 
   // page loading
   $(document).ready(function () {
@@ -318,19 +306,6 @@ $(function () {
 
   // reinit
   swup.hooks.on('page:view', () => {
-    Scrollbar.use(OverscrollPlugin);
-    Scrollbar.init(document.querySelector('#scrollbar'), {
-      damping: 0.05,
-      renderByPixel: true,
-      continuousScrolling: true,
-    });
-    // Scrollbar.init(document.querySelector('#scrollbar2'), {
-    //   damping: 0.05,
-    //   renderByPixel: true,
-    //   continuousScrolling: true,
-    // });
-
-
 
     $("#form").submit(function () {
       $.ajax({
