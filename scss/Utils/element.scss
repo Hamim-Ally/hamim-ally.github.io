@@ -94,3 +94,42 @@ textarea{resize:vertical;}
     h2{page-break-after:avoid;}
 }
     
+
+
+/*! CSS Used from: https://tetsuo.qodeinteractive.com/wp-content/themes/tetsuo/assets/css/modules.min.css?ver=6.0.9 ; media=all */
+@media all{
+    a,i,span{background:0 0;border:0;margin:0;outline:0;padding:0;vertical-align:baseline;}
+    a:hover{color:#ec4e00;}
+    a{color:#fff;text-decoration:none;-webkit-transition:color .2s ease-out;-moz-transition:color .2s ease-out;transition:color .2s ease-out;}
+    ::selection{background:#ec4e00;color:#111;}
+    #back-to-top{border:1px solid $super-dark; border-radius:2px; background-color:$dark;position:fixed;width:32px; right:25px;bottom:25px;margin:0;z-index:10000;opacity:0;visibility:hidden;overflow:hidden;}
+    #back-to-top.on{opacity:1;visibility:visible;-webkit-transition:opacity .3s ease;-moz-transition:opacity .3s ease;transition:opacity .3s ease;}
+    #back-to-top .edgtf-icon-stack{position:relative;display:block;margin-bottom:0;font-size:20px;text-align:center;color:#fff;overflow:hidden;-webkit-transition:.2s;-moz-transition:.2s;transition:.2s;}
+    #back-to-top .edgtf-btt-text{font-family:Rajdhani,sans-serif;font-weight:400;font-size:12px;position:absolute;display:block;height:25px;width:100px;bottom:-13px;left:7px;-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);transform:rotate(-90deg);-webkit-transform-origin:0 0;-moz-transform-origin:0 0;transform-origin:0 0;-webkit-transition:.2s;-moz-transition:.2s;transition:.2s;letter-spacing:1px;text-transform:uppercase;color:#fff;opacity:0;}
+    #back-to-top:hover .edgtf-icon-stack{margin-bottom:100px;}
+    #back-to-top:hover .edgtf-btt-text{opacity:1;color:#fff;}
+    }
+    /*! CSS Used from: https://tetsuo.qodeinteractive.com/wp-content/themes/tetsuo/framework/lib/icons-pack/ion-icons/css/ionicons.min.css?ver=6.0.9 ; media=all */
+    @media all{
+    .ion-android-arrow-dropup:before{display:inline-block;font-family:"Ionicons";speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+    .ion-android-arrow-dropup:before{content:"\f365";}
+}
+
+
+// .btn
+// {
+//     background:#3a3a3a;
+//     color: #fff;
+//     border-radius:2px;
+//     padding: 8px;
+//     border: 1px solid #181818;
+//     display: block;
+//     width: fit-content;
+
+//     &:hover
+//     {
+//         background:$darkest;
+//         color: #fff;
+//         text-shadow: 0 0 3px rgba(250,250,252,.4);
+//     }
+// }

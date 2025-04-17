@@ -24,3 +24,18 @@ body {line-height: 1.5;}
 // Courier Prime fonts
 @include font-face('Courier Prime', normal, 400, '/Assets/Fonts/CourierPrime/400.ttf');
 @include font-face('Courier Prime', normal, 700, '/Assets/Fonts/CourierPrime/700.ttf');
+
+
+.text-left{text-align: left;}
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+
+.fs-14
+{
+    font-size: 14px;
+}
+
+.fs-48
+{
+    font-size: 48px;
+}
